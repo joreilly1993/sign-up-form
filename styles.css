@@ -1,0 +1,104 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+    height: 95vh;
+}
+
+#left-div{
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+
+#company-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Sofia, Verdana, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0, .6)
+}
+
+#logo {
+    height: 10vh;
+    width: 8vh;
+    vertical-align: middle;
+}
+
+#photo-credit {
+    position: absolute;
+    bottom: 1vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .5rem;
+}
+#background {
+    background-image: url("beach1.jpg");
+    background-size: cover;
+    width: 40vw;
+}
+
+#right-div {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 100vw;
+    background-color: rgba(240, 240, 240, .9)
+}
+
+#text {
+    margin: 3vh 5vh 0 5vh;
+    text-align: left;
+    font-size: 1.2rem;
+}
+#sign-up-form {
+    display: flex;
+}
+#first-email-password{
+    margin: 0 0 3vh 2.5vh;
+}
+
+#last-phone-passwordconfirm {
+    margin: 0 0 3vh 5vh;
+}
+
+#create-account {
+    margin: 0 0 0 5vh;
+}
+
+label, input[type=text] {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px cyan;
+    border-radius: 8px;
+}
+
+input {
+    border: .5px solid gray;
+    border-radius: 8px;
+}
+
+input[type=submit] {
+    background-color: rgb(0,0,0,.7);
+    color: white;
+    font-weight: bolder;
+    width: 20vw;
+    height: 5vh;
+    text-align: center;
+}
+
+
